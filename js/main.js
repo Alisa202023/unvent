@@ -33,6 +33,7 @@ jQuery(document).ready(function() {
         jQuery('.btn__custom ').toggleClass('noactive');
         jQuery('.call').toggleClass('noactive');
         jQuery('html').toggleClass('scrollnoactive');
+        jQuery('body').toggleClass('scrollnoactive');
         jQuery('.menu__nav ul').slideToggle(300, function(){
         if(jQuery(this).css('display') === "none"){
             jQuery(this).removeAttr('style');
