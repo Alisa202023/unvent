@@ -94,7 +94,7 @@ img {
 
 .header__burger {
   display: block;
-  width: 40px;
+  width: 28px;
   z-index: 999;
   cursor: pointer;
 }
