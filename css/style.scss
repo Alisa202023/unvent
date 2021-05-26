@@ -20,6 +20,10 @@ img{
     max-height: 100%;
     max-width: 100%;
 }
+.scrollnoactive{
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
 .main{
     background: url(../img/bg.jpg) no-repeat center;
     background-size: cover;
